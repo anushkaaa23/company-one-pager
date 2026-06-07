@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+langchain
+langchain-google-genai
+langchain-community
+yfinance
+beautifulsoup4
+trafilatura
+duckduckgo-search
+httpx
+jinja2
+python-dotenv

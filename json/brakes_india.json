@@ -1,0 +1,83 @@
+{
+  "company_name": "Brakes India Private Limited",
+  "ticker": null,
+  "website": null,
+  "overview": {
+    "what_company_does": {
+      "claim": "Brakes India Private Limited is a manufacturer of automotive components, specifically braking equipment and iron castings, serving both automotive and non-automotive applications.",
+      "source_url": "https://www.brakesindia.com/",
+      "source_excerpt": "Manufacturers of braking equipment for automotive and non-automotive applications, Brakes India has unveiled ZAP..; Every Single Automotive Player in India is a Customer of our Iron Castings Business",
+      "confidence": "HIGH",
+      "source_type": "company_website",
+      "verification_note": null
+    },
+    "business_model": {
+      "claim": "Brakes India manufactures and sells braking equipment and iron castings. It primarily serves automotive OEMs in India and Europe, as well as the aftermarket, and also caters to non-automotive applications. The company operates with 21 manufacturing locations and has a significant export business, particularly for iron castings to Europe. It also engages in joint ventures.",
+      "source_url": "https://www.brakesindia.com/",
+      "source_excerpt": "3 Out 4 Buses and Trucks in India have our Brakes; Every Single Automotive Player in India is a Customer of our Iron Castings Business; Every 3rd Car in Europe Contains Parts Made by Our Iron Castings Business; 21 Manufacturing Locations; 200000 Tons of Iron Castings Capacity; TISAX label certified for exports to Europe; Brakes India and ADVICS to Form Joint Venture; Senior Vice President & Head, Aftermarket Business Unit",
+      "confidence": "HIGH",
+      "source_type": "company_website",
+      "verification_note": null
+    },
+    "products_services": {
+      "claim": "Brakes India offers a range of products including brakes for buses, trucks, light vehicles, heavy vehicles, passenger cars, small commercial vehicles (SCV), tractors, off-highway vehicles, and ZAP brake pads designed for electric vehicles (EVs). They also produce iron castings and polymer products. Services include QIk Brake Service, Authorized Service Centres, and Brake Maintenance Tips.",
+      "source_url": "https://www.brakesindia.com/",
+      "source_excerpt": "3 Out 4 Buses and Trucks in India have our Brakes; Every Single Automotive Player in India is a Customer of our Iron Castings Business; Brakes India launches ZAP brake pads designed for EVs; Passenger Cars & SCV; Commercial (LCV & HCV); Tractor & Off-Highway; QIk Brake Service; Authorized Service Centre; Brake Maintenance Tips; Senior Vice President & Head, Polymer Business Unit",
+      "confidence": "HIGH",
+      "source_type": "company_website",
+      "verification_note": null
+    },
+    "industries_served": {
+      "claim": "Brakes India primarily serves the automotive industry, including manufacturers of buses, trucks, cars, light commercial vehicles, heavy commercial vehicles, passenger cars, small commercial vehicles, tractors, and electric vehicles. They also cater to non-automotive applications.",
+      "source_url": "https://www.brakesindia.com/",
+      "source_excerpt": "3 Out 4 Buses and Trucks in India have our Brakes; Every Single Automotive Player in India is a Customer of our Iron Castings Business; Every 3rd Car in Europe Contains Parts Made by Our Iron Castings Business; Brakes India launches ZAP brake pads designed for EVs; Manufacturers of braking equipment for automotive and non-automotive applications; Passenger Cars & SCV; Commercial (LCV & HCV); Tractor & Off-Highway",
+      "confidence": "HIGH",
+      "source_type": "company_website",
+      "verification_note": null
+    },
+    "geography": {
+      "claim": "Brakes India has 21 manufacturing locations and its corporate and registered offices are in Chennai, India. The company has a significant market presence in India for its brakes and exports iron castings to Europe, where its parts are found in every third car.",
+      "source_url": "https://www.brakesindia.com/",
+      "source_excerpt": "21 Manufacturing Locations; Padi, Chennai - 600050; 21, Patullos Road, Chennai - 600002; 3 Out 4 Buses and Trucks in India have our Brakes; Every 3rd Car in Europe Contains Parts Made by Our Iron Castings Business; TISAX label certified for exports to Europe",
+      "confidence": "HIGH",
+      "source_type": "company_website",
+      "verification_note": null
+    },
+    "operating_model": {
+      "claim": "Brakes India operates 21 manufacturing locations with a capacity of 200,000 tons of iron castings. The company is promoted by the TSF Group and forms joint ventures, such as with ADVICS.",
+      "source_url": "https://www.brakesindia.com/",
+      "source_excerpt": "21 Manufacturing Locations; 200000 Tons of Iron Castings Capacity; Brakes India is promoted by the TSF Group; Brakes India and ADVICS to Form Joint Venture",
+      "confidence": "HIGH",
+      "source_type": "company_website",
+      "verification_note": null
+    }
+  },
+  "financials": [],
+  "financials_note": "Brakes India Private Limited is an unlisted private company. Financial data not available in public sources. MCA filings exist but are paywalled. No reliable figures found.",
+  "products": [
+    {
+      "name": {
+        "claim": "ZAP brake pads",
+        "source_url": "https://www.tvsgirling.com/",
+        "source_excerpt": "Brakes India launches ZAP brake pads designed for EVs",
+        "confidence": "MEDIUM",
+        "source_type": "company_website",
+        "verification_note": null
+      },
+      "description": {
+        "claim": "Brake pads designed for electric vehicles (EVs) featuring advanced friction technology.",
+        "source_url": "https://www.tvsgirling.com/",
+        "source_excerpt": "Brakes India launches ZAP brake pads designed for EVs; TVS Apache, a brand of Brakes India, launched ZAP brake pads with advanced friction technology for electric vehicles; Brakes India has launched new brake pads with advanced friction technology..",
+        "confidence": "MEDIUM",
+        "source_type": "company_website",
+        "verification_note": null
+      },
+      "industry_served": "Electric Vehicles (EV) automotive industry"
+    }
+  ],
+  "products_discovery_note": "Specific products not found on public pages. Known categories: Brakes India offers a range of products including brakes for buses, trucks, light vehicles, heavy vehicles, passenger cars, small commercial vehicles (SCV), tractors, off-highway vehicles, and ZAP brake pads designed for electric vehicles (EVs). They also produce iron castings and polymer products. Services include QIk Brake Service, Authorized Service Centres, and Brake Maintenance Tips.",
+  "clients": {
+    "named_clients": [],
+    "disclosure_note": "Named clients not publicly disclosed. Verified customer segments: Every single automotive player in India (for iron castings business), 3 out of 4 buses and trucks in India (for brakes), and automotive players in Europe (for iron castings business). Source: https://www.brakesindia.com/"
+  }
+}
