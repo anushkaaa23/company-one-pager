@@ -122,7 +122,7 @@ def generate_report(request: GenerateRequest):
             raise HTTPException(status_code=500, detail="Failed to extract matching text from sources.")
             
         # Aggregate context for overview and client extraction
-        combined_context = "\\n\\n".join([f"Source: {c['url']}\\n\\n{c['text'][:8000]}" for c in context_chunks])
+        combined_context = "\n\n".join([f"Source: {c['url']}\n\n{c['text'][:8000]}" for c in context_chunks])
         top_source_url = context_chunks[0]['url']
         top_source_type = context_chunks[0]['type']
         

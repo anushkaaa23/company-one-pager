@@ -9,7 +9,7 @@ class DiscoveredSource(BaseModel):
     source_type: str  # annual_report, company_website, exchange_filing, news, database
     trust_score: float # 0.0 to 1.0
 
-def categorize_url(url: str, title: str, snippet: str, company_website: str = None) -> (str, float):
+def categorize_url(url: str, title: str, snippet: str, company_website: str = None) -> tuple[str, float]:
     url_lower = url.lower()
     title_lower = title.lower()
     

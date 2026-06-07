@@ -113,7 +113,7 @@ def extract_financials(ticker: Optional[str]) -> List[FinancialYear]:
                     except:
                         pass
                 return ticker_obj.financials, ticker_obj.balance_sheet, is_inr
-        except:
+        except Exception:
             pass
         return None, None, False
 
