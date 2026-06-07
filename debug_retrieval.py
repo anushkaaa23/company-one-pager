@@ -1,9 +1,10 @@
 """
 Debug script: Shows exactly what the retrieval pipeline fetches and passes to the LLM.
-Run with: python3 debug_retrieval.py
+Run with: python3 debug_retrieval.py "Tata Motors Limited" --ticker TATAMOTORS --website www.tatamotors.com
 """
 import sys
 import os
+import argparse
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from dotenv import load_dotenv
@@ -13,9 +14,15 @@ from pipeline.discovery import discover_sources
 from pipeline.extraction import extract_text_from_url
 from pipeline.entity_resolution import resolve_entity
 
-company_name = "Apple Inc."
-ticker = "AAPL"
-website = "www.apple.com"
+parser = argparse.ArgumentParser(description="Debug retrieval pipeline for any company.")
+parser.add_argument("company_name", help="Full company name (e.g. 'Tata Motors Limited')")
+parser.add_argument("--ticker", default=None, help="Stock ticker (e.g. 'TATAMOTORS')")
+parser.add_argument("--website", default=None, help="Company website (e.g. 'www.tatamotors.com')")
+args = parser.parse_args()
+
+company_name = args.company_name
+ticker = args.ticker
+website = args.website
 
 print("=" * 80)
 print("STEP 1: ENTITY RESOLUTION")
