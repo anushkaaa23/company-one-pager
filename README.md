@@ -114,7 +114,7 @@ company-one-pager/
 The system is a modular Python pipeline exposed via a FastAPI backend. Each step is explicitly separated to enforce strict fact-checking boundaries.
 
 1. **Entity Resolution** (`pipeline/entity_resolution.py`): Infers canonical ticker, website URL, and company type (Public/Private) using DuckDuckGo search + LLM evaluation. Accepts user-provided hints to skip search if already known.
-2. **Source Discovery** (`pipeline/discovery.py`): Builds a ranked list of high-trust sources — BSE/NSE filings, Annual Report PDFs, official company domains, and Tier-1 business news. Each source gets a `trust_score` (0–1).
+2. **Source Discovery** (`pipeline/discovery.py`): While the discovery layer is designed to rank BSE/NSE filings and Annual Reports highly, most outputs currently reflect company website extraction as the dominant source. Broader multi-source grounding is a planned improvement.
 3. **Extraction** (`pipeline/extraction.py`):
    - Uses **Playwright** (headless Chromium) to render JS-heavy corporate sites, with `pdfplumber` for PDF annual reports.
    - Uses **`yfinance`** to fetch numerical financial data directly — bypassing LLM hallucination for numbers entirely.
